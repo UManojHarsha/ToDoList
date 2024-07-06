@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.root {
+  height: 100vh;
+}
+
+.App {
+  height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.NavBar {
+  border-bottom: solid;
+  display: flex;
+}
+
+.sideMenu {
+  /*flex: 1;*/
+  width: 15%;
+  border-right: solid 10px;
+}
+
+.sideMenu-day {
+  border-bottom: solid;
+}
+
+.rf {
+  width: 85%;
+}
+
+.taskInput {
+  /*border: 0;*/
+  border: solid;
+  border-radius: 50px;
+  width: 50%;
+}
+
+.task-Lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.ToBeDone-List {
+  border: solid;
+}
+
+.Postponed-List {
+  border: solid;
+}
+
+.Completed-List {
+  border: solid;
+}
